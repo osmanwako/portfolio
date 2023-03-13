@@ -7,6 +7,9 @@ let storedcontactme = { name: '', email: '', message: '' };
 
 if (localStorage.getItem('storedcontactme')) {
   storedcontactme = JSON.parse(localStorage.getItem('storedcontactme'));
+  name.value = storedcontactme.name;
+  email.value = storedcontactme.email;
+  message.value = storedcontactme.message;
 } else {
   localStorage.setItem('storedcontactme', JSON.stringify(storedcontactme));
 }
