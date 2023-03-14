@@ -36,6 +36,6 @@ function recordinput(event) {
 }
 
 form.addEventListener('submit', checkform);
-email.addEventListener('change', recordinput);
-name.addEventListener('change', recordinput);
-message.addEventListener('change', recordinput);
+email.addEventListener('keyup', recordinput);
+name.addEventListener('keyup', recordinput);
+message.addEventListener('keyup', recordinput);
