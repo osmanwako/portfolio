@@ -16,7 +16,7 @@ if (localStorage.getItem('storedcontactme')) {
 
 function showerror() {
   email.style.border = '3px solid red';
-  errorlabel.textContent = 'Email should be only lowercase.*';
+  errorlabel.textContent = 'Email should contain  uppercase.*';
   errorlabel.style.display = 'inline-block';
   return false;
 }
@@ -36,6 +36,6 @@ function recordinput(event) {
 }
 
 form.addEventListener('submit', checkform);
-email.addEventListener('change', recordinput);
-name.addEventListener('change', recordinput);
-message.addEventListener('change', recordinput);
+email.addEventListener('keyup', recordinput);
+name.addEventListener('keyup', recordinput);
+message.addEventListener('keyup', recordinput);

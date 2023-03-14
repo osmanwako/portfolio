@@ -98,18 +98,27 @@ Install this project with:
 
 - GitHub: [@Osmanwako](https://github.com/osmanwako)
 - LinkedIn: [Osmanwako](https://www.linkedin.com/in/osman-wako-08663825a/)
+
+👤 **Collaborator**
+
+- GitHub: [@bennyjoez](https://github.com/bennyjoez)
+- Twitter: [@bennyjoezz](https://twitter.com/bennyjoezz)
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Mobile version]**
-- [ ] **[Desktop Version]**
+- Mobile version
+- Desktop Version
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the issues page.
 
 <!-- SUPPORT -->
 
