@@ -107,8 +107,8 @@ Install this project with:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Mobile version]**
-- [ ] **[Desktop Version]**
+- Mobile version
+- Desktop Version
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
