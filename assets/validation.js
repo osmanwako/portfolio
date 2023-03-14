@@ -16,7 +16,7 @@ if (localStorage.getItem('storedcontactme')) {
 
 function showerror() {
   email.style.border = '3px solid red';
-  errorlabel.textContent = 'Email should be only lowercase.*';
+  errorlabel.textContent = 'Email should contain  uppercase.*';
   errorlabel.style.display = 'inline-block';
   return false;
 }
