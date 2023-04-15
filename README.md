@@ -69,7 +69,7 @@ This is my first mobile version port folio microverse project
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-[Live](https://osmanwako.github.io/portfolio/)
+[Live Demo](https://osmanwako.github.io/Portfolio/)
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -77,7 +77,7 @@ This is my first mobile version port folio microverse project
 Clone this repository to your desired folder:
 
 ```
-git clone https://github.com/osmanwako/Desktoportfolio
+git clone https://github.com/osmanwako/Portfolio
 ```
 
 ### Install
