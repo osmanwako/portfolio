@@ -69,7 +69,7 @@ This is my first mobile version port folio microverse project
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-[Live Demo](https://osmanwako.github.io/Portfolio/)
+[Live Demo](https://osmanwako.github.io/portfolio/)
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -77,7 +77,7 @@ This is my first mobile version port folio microverse project
 Clone this repository to your desired folder:
 
 ```
-git clone https://github.com/osmanwako/Portfolio
+git clone https://github.com/osmanwako/portfolio
 ```
 
 ### Install
@@ -94,10 +94,10 @@ Install this project with:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Osman Wako**
 
 - GitHub: [@Osmanwako](https://github.com/osmanwako)
-- LinkedIn: [Osmanwako](https://www.linkedin.com/in/osman-wako-08663825a/)
+- LinkedIn: [Osmanwako](https://www.linkedin.com/in/osmanwako/)
 
 👤 **Collaborator**
 
