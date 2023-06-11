@@ -4,9 +4,9 @@ const maxfolder = './assets/images/desktop/';
 const containerid = ['firstdiv', 'secondiv', 'thirdiv', 'fourthdiv'];
 const projectitlename = [
   'Currency Exchange',
-  'Multi-Post Stories',
-  'Facebook 360',
-  'Uber Navigation',
+  'MealWeb App',
+  'Todo List',
+  'Erriecha Festival',
 ];
 const projectimgname = [
   'workimg1.png',
@@ -15,16 +15,16 @@ const projectimgname = [
   'workimg4.png',
 ];
 const technology = [
-  { name: 'CANOPY', position: 'Back End', year: 2018 },
-  { name: 'FACEBOOK', position: 'Full Stack Dev', year: 2018 },
-  { name: 'FACEBOOK', position: 'Full Stack Dev', year: 2018 },
-  { name: 'Uber', position: 'Lead Developer', year: 2023 },
+  { name: 'Currency', position: 'Front End', year: 2023 },
+  { name: 'Restaurant', position: 'Front End Dev', year: 2023 },
+  { name: 'Todo List', position: 'Front End Dev', year: 2023 },
+  { name: 'Festival', position: 'Front End', year: 2023 },
 ];
 const projectdescription = [
-  'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quo fuga quisquam si porro officiis cumque totam ipsum similique.Quasi dignissimos voluptas ex nostrum solutarepudiandae suscipit delectus aliquid labore?',
-  'Lorem ipsum dolor sit amet consectetur adipisicing adipisicing elit. Officia quo fuga quisquam si porro officiis cumque totam ipsum similique.Quasi dignissimos voluptas voluptas ex nostrum solutarepudiandae suscipit delectus aliquid labore?',
-  'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quo fuga quisquam si porro officiis cumque totam ipsum similique.Quasi dignissimos voluptas ex nostrum solutarepudiandae suscipit delectus aliquid labore?',
-  'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quo fuga quisquam si porro officiis cumque totam ipsum similique.Quasi dignissimos voluptas ex nostrum solutarepudiandae suscipit delectus aliquid labore?',
+  'Currency Exchange is web application list all currency code and description. The home page lists are clickable to show details currency exchange rate.',
+  'Mealwebapp is a seafood-focused application featuring a list of meals with images, names, and interactive buttons for commenting and liking. Users can add comments and track the number of likes for each meal using an API.',
+  'The todo list is an application that can enable you to organize your daily tasks.  clear the completed task from the pages.',
+  'This is  web application for Irreecha annual festival. This project was developed for advertising local traditional events that celebrate every year in Ethiopia. it has partners, speakers, venue of events, and history of the previous ceremony.',
 ];
 const projectlang = [
   { name: 'Html', cname: 'lang-list' },
@@ -37,7 +37,7 @@ const projdetails = [
   {
     cid: 'btnseeliveid btn-details list-details',
     name: 'See Live',
-    address: '',
+    address: 'https://osmanwako.github.io/erriecha/',
     path: './assets/images/seelive.svg',
   },
   {
