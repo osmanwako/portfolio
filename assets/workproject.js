@@ -3,16 +3,16 @@ const minfolder = './assets/images/mobile/';
 const maxfolder = './assets/images/desktop/';
 const containerid = ['firstdiv', 'secondiv', 'thirdiv', 'fourthdiv'];
 const projectitlename = [
-  'Tonic',
+  'Currency Exchange',
   'Multi-Post Stories',
   'Facebook 360',
   'Uber Navigation',
 ];
 const projectimgname = [
-  'workimg1.svg',
-  'workimg2.svg',
-  'workimg3.svg',
-  'workimg4.svg',
+  'workimg1.png',
+  'workimg2.png',
+  'workimg3.png',
+  'workimg4.png',
 ];
 const technology = [
   { name: 'CANOPY', position: 'Back End', year: 2018 },
