@@ -36,7 +36,7 @@ const data = [
     ],
     technologies: [{ teck1: 'html', teck2: 'css', teck3: 'javascript', teck4: 'webpack', teck5: 'jest' }],
     liveLink: 'https://osmanwako.github.io/mealwebapp/dist/',
-    sourceLink: 'https://github.com/muhammedb8826/flame-cafe',
+    sourceLink: 'https://github.com/osmanwako/mealwebapp',
   },
   {
     name: 'Space travelers hub',
