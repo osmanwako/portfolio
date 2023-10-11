@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>Portfolio Popup Details</b></h3>
+  <h3><b>My Portfolio</b></h3>
 
 </div>
 
@@ -69,7 +69,9 @@ This is my first mobile version port folio microverse project
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
+
 [Live Demo](https://osmanwako.github.io/portfolio/)
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
