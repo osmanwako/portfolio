@@ -2,13 +2,15 @@
 
 :root {
   --max-width: 1200px;
-  --main-color: #6070FF;
+  --main-color: #6070ff;
   --text-color: #474554;
   --text-color-light: #faf8ff;
-  --button-overlay-color: #3856E0;
+  --button-overlay-color: #3856e0;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -302,7 +304,7 @@ nav.active .menu-items li {
   position: absolute;
   top: 0.7rem;
   right: 0.7rem;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-decoration: none;
   border-radius: 16px;
   color: #396df2;
@@ -582,7 +584,8 @@ nav.active .menu-items li {
   display: none;
 }
 
-.frameworks-list, .skills-list {
+.frameworks-list,
+.skills-list {
   display: none;
 }
 
@@ -590,11 +593,13 @@ nav.active .menu-items li {
   rotate: 90deg;
 }
 
-#frameworks-arrow, #skills-arrow {
+#frameworks-arrow,
+#skills-arrow {
   rotate: 0deg;
 }
 
-#frameworks-arrow.rotate, #skills-arrow.rotate {
+#frameworks-arrow.rotate,
+#skills-arrow.rotate {
   rotate: 90deg;
 }
 
@@ -602,14 +607,18 @@ nav.active .menu-items li {
   rotate: 0deg;
 }
 
-.languages-list, .frameworks-list.opened, .skills-list.opened {
- position: absolute;
- top:2em;
- padding: 0.7em;
- display: block;
+.languages-list,
+.frameworks-list.opened,
+.skills-list.opened {
+  position: absolute;
+  top: 2em;
+  padding: 0.7em;
+  display: block;
 }
 
-.languages-list ul, .frameworks-list.opened ul, .skills-list.opened ul {
+.languages-list ul,
+.frameworks-list.opened ul,
+.skills-list.opened ul {
   list-style: none;
   padding: 0;
   width: 100%;
@@ -629,7 +638,8 @@ nav.active .menu-items li {
   color: #5564eb;
 }
 
-.frameworks-list.opened ul li, .skills-list.opened ul li {
+.frameworks-list.opened ul li,
+.skills-list.opened ul li {
   font-weight: 400;
   font-size: 12px;
   line-height: 24px;
