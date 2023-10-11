@@ -4,292 +4,202 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Poppins"
-      rel="stylesheet"
-    />
-    <link
-      rel="icon"
-      type="image/*"
-      href="./assets/images/portfolio.png"
-      alt="Osman"
-    />
-    <link rel="stylesheet" href="./assets/main.css" />
-    <script src="./assets/popupmenu.js" defer></script>
-    <script src="./assets/workproject.js" defer></script>
-    <script src="./assets/popupevent.js" defer></script>
-    <script src="./assets/validation.js" defer></script>
+    <link rel="icon" type="image/*" href="./assets/images/portfolio.png" alt="Osman"/>
     <title>Portfolio | Osman</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="scripts/app.js" defer></script>
+    <script src="scripts/works.js" type="module"></script>
+    <script src="scripts/form-validation.js" defer></script>
+    <script src="scripts/localStorage.js" defer></script>
   </head>
-
   <body>
-    <div class="relativediv">
-      <div id="bgbodycontainer"></div>
-      <div id="div0012"></div>
-    </div>
-    <header class="header-container bg-white">
-      <nav class="header-navbar bg-white">
-        <ul class="unorder-nav">
-          <a class="logo-link txt2 fw-7 fs-18">Osman Wako</a>
-        </ul>
-        <ul class="unorder-nav" id="popupmenu-container">
-          <li class="desknavbar-list" id="list-closemenu">
-            <a class="navbar-link txt2 fw-7 fs-18" id="link-closemenu"
-              >&#215;</a
-            >
-          </li>
-          <li class="mobnavbar-list" id="hamburger-link">
-            <a class="logo-link txt2 fw-7 fs-18" id="hamburger-link">&#9776;</a>
-          </li>
-          <li class="desknavbar-list navigation-links">
-            <a class="navbar-link fs-15 fw-5" href="#workingprojectid"
-              >Portfolio</a
-            >
-          </li>
-          <li class="desknavbar-list navigation-list">
-            <a class="navbar-link fs-15 fw-5" href="#section-aboutmyself"
-              >About</a
-            >
-          </li>
-          <li class="desknavbar-list navigation-list">
-            <a class="navbar-link fs-15 fw-5" href="#section-contactme"
-              >Contact</a
-            >
-          </li>
+    <header class="header">
+      <a href="#">Osman Wako</a>
+      <div class="menu-bg"></div>
+      <div id="menuBtn" class="menu-btn">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+      <nav>
+        <ul class="menu-items">
+          <li><a class="menu-link" href="#portfolio">Portfolio</a></li>
+          <li><a class="menu-link" href="#about">About</a></li>
+          <li><a class="menu-link" href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
-    <main class="main-container">
-      <section class="section-introduction bg-white" id="section-introduction">
-        <h1 class="fs-40 fw-7 introduction">
-          I’m Osman <br />
-          Glad to see you!
-        </h1>
-        <div class="resume-container introduction">
-          <h2 class="resume resume-z">Software</h2>
-          <h2 class="resume resume-y">Developer</h2>
-          <h2 class="resume resume-x">Osman Wako</h2>
-        </div>
-        <p class="fs-20 fw-4 introduction">
-          I’m a software developer! I can help you build a product , feature or
-          website Look through some of my work and experience! If you like what
-          you see and have a project you need coded, don’t hestiate to contact
-          me
-          <br />
+    <div class="popup-bg" id="popUp-bg">
+    </div>
+    <main class="main-section">
+      <section class="content">
+        <h1>Hey there, I’m Osman</h1>
+        <h2>A Full-stack web developer!</h2>
+        <p id="primary-text">
+          I am a seasoned full-stack developer who has successfully delivered complex and high-impact web 
+          applications for various clients and industries. I can work independently or collaboratively with 
+          other developers, designers, and stakeholders to ensure the best outcomes
         </p>
-        <span class="introduction">
-          <a href="#" class="btn-action fw-5 fs-16">LET’S CONNECT</a>
-          <br />
-        </span>
-        <ul class="unorder-social introduction">
+        <h3 class="social-media">LET’S CONNECT</h3>
+        <ul class="icons">
           <li>
-            <a class="icon-link"
-              ><img
-                alt="Twitter"
-                class="link-img"
-                src="./assets/images/social_icon/twitter_icon.png"
+            <a href="https://twitter.com/osmanwako"><img src="./assets/twitter.svg" alt="twitter" /></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/osmanwako/"
+              ><img src="./assets/linkedin.svg" alt="linkedin"
             /></a>
           </li>
           <li>
-            <a class="icon-link"
-              ><img
-                alt="Linkedin"
-                class="link-img"
-                src="./assets/images/social_icon/linkedin_icon.png"
-            /></a>
+            <a href="https://medium.com/@osmanwako"><img src="./assets/medium.svg" alt="medium" /></a>
           </li>
           <li>
-            <a class="icon-link"
-              ><img
-                alt="GMail"
-                class="link-img"
-                src="./assets/images/social_icon/m_icon.png"
-            /></a>
+            <a href="https://github.com/osmanwako"><img src="./assets/github.svg" alt="github" /></a>
           </li>
           <li>
-            <a class="icon-link"
-              ><img
-                alt="Github"
-                class="link-img"
-                src="./assets/images/social_icon/github_icon.png"
-            /></a>
-          </li>
-          <li>
-            <a class="icon-link"
-              ><img
-                alt="clip"
-                class="link-img"
-                src="./assets/images/social_icon/clip_icon.png"
-            /></a>
+            <a href="https://wellfound.com/u/osmanwako"><img src="./assets/angelist.svg" alt="angelist" /></a>
           </li>
         </ul>
       </section>
-      <section class="grid-workproject" id="workingprojectid"></section>
-      <section class="section-aboutmyself bg-white" id="section-aboutmyself">
-        <div class="aboutmyself-container">
-          <div class="about-myself">
-            <h1 class="fs-40 fw-7 content-alignment txt1">
-              About <br />Myself
-            </h1>
-            <p class="fw-4 fs-16 content-alignment txtd">
-              Hello I’m a software developer! I can help you build a product ,
-              feature or website Look through some of my work and experience! If
-              you like what you see and have a project you need coded, don’t
-              hestiate to contact me.
-            </p>
-            <span class="content-alignment">
-              <a href="#" class="txt4 fw-5 fs-16">LET’S CONNECT</a>
-            </span>
-            <ul class="unorder-social content-alignment">
-              <li>
-                <a class="icon-link"
-                  ><img
-                    alt="Twitter"
-                    class="link-img"
-                    src="./assets/images/social_icon/twitter_icon.png"
-                /></a>
-              </li>
-              <li>
-                <a class="icon-link"
-                  ><img
-                    alt="Linkedin"
-                    class="link-img"
-                    src="./assets/images/social_icon/linkedin_icon.png"
-                /></a>
-              </li>
-              <li>
-                <a class="icon-link"
-                  ><img
-                    alt="GMail"
-                    class="link-img"
-                    src="./assets/images/social_icon/m_icon.png"
-                /></a>
-              </li>
-              <li>
-                <a class="icon-link"
-                  ><img
-                    alt="Github"
-                    class="link-img"
-                    src="./assets/images/social_icon/github_icon.png"
-                /></a>
-              </li>
-              <li>
-                <a class="icon-link"
-                  ><img
-                    alt="clip"
-                    class="link-img"
-                    src="./assets/images/social_icon/clip_icon.png"
-                /></a>
-              </li>
-            </ul>
-            <p class="content-alignment">
-              <button type="button" class="btn-details txt5 fw-5 fs-17">
-                See Project
-              </button>
-            </p>
-          </div>
-          <div class="about-myexperience">
-            <ul class="experience-list">
-              <li><a class="fw-5 fs-20 txtd">Languages</a></li>
-              <li><div class="upward-icon fw-4 fs-25 txt6">&#62;</div></li>
-            </ul>
-            <ul class="unorder-language">
-              <li class="language-list">
-                <img
-                  src="./assets/images/js.png"
-                  class="lang-img lang-item"
-                  alt="Javascript"
-                />
-                <a class="fw-5 fs-20 txtd lang-item">Javascript</a>
-              </li>
-              <li class="language-list">
-                <img
-                  src="./assets/images/html.png"
-                  class="lang-img lang-item"
-                  alt="Html"
-                />
-                <a class="fw-5 fs-20 txtd exper-link lang-item">Html</a>
-              </li>
-              <li class="language-list">
-                <img
-                  src="./assets/images/css.png"
-                  class="lang-img lang-item"
-                  alt="css"
-                />
-                <a class="fw-5 fs-20 txtd lang-item">Css</a>
-              </li>
-            </ul>
-            <ul class="unorder-framework">
-              <li><a class="fw-5 fs-20 txtd">Frameworks</a></li>
-              <li><a class="fw-5 fs-25 txt6">&#62;</a></li>
-            </ul>
-            <div class="list-hozin"></div>
-            <ul class="unorder-framework">
-              <li><a class="fw-5 fs-20 txtd">Skills</a></li>
-              <li><a class="fw-5 fs-25 txt6">&#62;</a></li>
-            </ul>
-            <div class="list-hozin"></div>
-          </div>
-        </div>
-      </section>
-      <section class="section-contactme bg-white" id="section-contactme">
-        <div class="contactme-container">
-          <h1 class="fw-7 fs-40 txtw contact-title">Contact Me</h1>
-          <p class="fw-4 fs-20 txt7 contact-title">
-            If you have an application you are interested in developing, a
-            feature that you need built or a project that needs coding. I’d love
-            to help with it
-          </p>
-          <form
-            id="contactformid"
-            action="https://formspree.io/f/mayzolny"
-            method="post"
-            class="contact-form"
-          >
-            <label for="name" class="lbl-interaction"></label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              class="input-bg fw-4 fs-17"
-              placeholder="Enter Your name here..."
-              maxlength="30"
-              required
-            />
-            <label for="email" class="lbl-interaction"></label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              class="input-bg fw-4 fs-17"
-              placeholder="Enter your email address here..."
-              required
-            />
-            <label for="message" class="lbl-interaction"></label>
-            <textarea
-              placeholder="Write your message here..."
-              class="input-bg fw-4 fs-17"
-              rows="7"
-              name="message"
-              id="message"
-              maxlength="500"
-              required
-            ></textarea>
-            <label for="submit" class="lbl-interaction"></label>
-            <small class="errorlabel" id="errorlabelid"></small>
-            <input
-              type="submit"
-              id="submit"
-              class="btn-getintouch"
-              value="Get in touch"
-              name="buttonsubmit"
-            />
-          </form>
-        </div>
-      </section>
     </main>
-    <footer>
-      <section class="footer-container"></section>
+
+    <div id="menuBtnX" class="menu-btn-x">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+    <div class="cards" id="portfolio"></div>
+    <div class="about-section" id="about">
+      <section class="about-project-description-container">
+        <h2 class="about-me-text">About Myself</h2>
+        <p class="about-me-description">
+          Full-stack Web Developer with experience in Ruby and JavaScript libraries and frameworks. Exhibits a strong enthusiasm for pair programming and remote work. If you
+          like what you see and have a project you need coded, don’t hestiate to
+          contact me.
+        </p>
+        <h3 class="social-media">LET’S CONNECT</h3>
+        <ul class="icons">
+          <li>
+            <a href="https://github.com/osmanwako"><img src="./assets/github.svg" alt="github" /></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/osmanwako/"
+              ><img src="./assets/linkedin.svg" alt="linkedin"
+            /></a>
+          </li>
+          <li>
+            <a href="https://wellfound.com/u/osmanwako"><img src="./assets/angelist.svg" alt="s" /></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/osmanwako"><img src="./assets/twitter.svg" alt="twitter" /></a>
+          </li>
+          <li>
+            <a href="https://medium.com/@osmanwako"><img src="./assets/medium.svg" alt="medium" /></a>
+          </li>
+        </ul>
+        <a class="get-my-resume" href="./assets/osman_wako_resume.pdf" download>Get my resume</a>
+      </section>
+      <ul class="skills">
+        <li class="languages-container skill-list" id="language-btn">
+          Languages
+          <span
+            ><img id="languages-arrow" src="./assets/arrow-point-to-right.png" alt="rigth-arrow"
+          /></span>
+          <div class="languages-list">
+            <ul>
+              <li>JavaScript</li>
+              <li>PHP</li>
+              <li>Java</li>
+              <li>CPP</li>
+              <li>Ruby</li>
+            </ul>
+          </div>
+        </li>
+        <li class="frameworks-container skill-list" id="frameworks-btn">
+          Frameworks<span
+            ><img id="frameworks-arrow" src="./assets/arrow-point-to-right.png" alt="rigth-arrow"
+          /></span>
+          <div class="frameworks-list">
+            <ul>
+              <li>PHP Laravel</li>
+              <li>Angular</li>
+              <li>React</li>
+              <li>ASP.NET Web API</li>
+              <li>Ruby on Rails</li>
+            </ul>
+          </div>
+        </li>
+        <hr />
+        <li class="skills-container skill-list" id="skills-btn">
+          Skills<span>
+            <img id="skills-arrow" src="./assets/arrow-point-to-right.png" alt="right-arrow"/>
+        </span>
+          <div class="skills-list">
+            <ul>
+              <li>Object Oriented Programming</li>
+              <li>Agile Development </li>
+              <li>System Architecture</li>
+              <li>Project management</li>
+              <li>Communication Skills</li>
+              <li>Team Work</li>
+              <li>Automation Test</li>
+              <li>Git</li>
+            </ul>
+          </div>
+        </li>
+        <hr />
+      </ul>
+    </div>
+    <footer class="form-section" id="contact">
+      <section class="form-container">
+        <h2>Contact me</h2>
+        <p>
+          If you have an application you are interested in developing, a feature that you need to build, or a project that needs coding. I’d love to help with it
+        </p>
+        <form
+          action="https://formspree.io/f/mayzolny"
+          class="info-form"
+          method="post"
+          id="form"
+        >
+          <label for="your-name" hidden>What's your name</label>
+          <input
+            type="text"
+            placeholder="Full name"
+            required
+            id="your-name"
+            class="input-text"
+            maxlength="30"
+          />
+          <label for="email" hidden>what's your email</label>
+          <input
+            type="email"
+            placeholder="Email address"
+            id="email"
+            class="input-text"
+            required
+          />
+          <label for="form-text-area" hidden>what's your message</label>
+          <textarea
+            name="form-description"
+            id="form-text-area"
+            cols="30"
+            rows="8"
+            maxlength="500"
+            placeholder="Write your message here"
+            required
+          ></textarea>
+          <div id="errorTxt">Please use lowercase letters only for a valid email address!</div>
+          <button class="form-button" type="submit" id="submitBtn">Get in Touch</button>
+        </form>
+        <span class="email">osmanwako411@gmail.com</span>
+        <div class="line">
+          <div></div>
+        </div>
+      </section>
     </footer>
   </body>
 </html>
