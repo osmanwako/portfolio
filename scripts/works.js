@@ -136,7 +136,9 @@ for (let i = 0; i < data.length; i += 1) {
     seeLive.textContent = 'See Live';
     seeSource.textContent = 'See Source';
     seeLive.setAttribute('href', `${data[i].liveLink}`);
+    seeLive.setAttribute('target', '_blank');
     seeSource.setAttribute('href', `${data[i].sourceLink}`);
+    seeSource.setAttribute('target', '_blank');
     liveIcon.setAttribute('src', './assets/live-icon.png');
     liveIcon.className = 'live-icon';
     seeLive.append(liveIcon);
